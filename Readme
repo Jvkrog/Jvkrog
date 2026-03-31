@@ -1,63 +1,118 @@
- //JVKROG — Autonomous Systems & Decision Engineering//
+# Jvkrog — Autonomous Systems & Decision Engineering
 
-This repository documents my journey in building **autonomous and semi-autonomous systems** across embedded hardware, IoT, and algorithmic decision-making.
+> Building systems that observe, decide, and act — with minimal human dependency.
 
-Rather than focusing on final outcomes alone, this project emphasizes:
-- system behavior
-- failure-driven iteration
-- explainable decisions
-- reduction of human dependency in critical moments
+---
 
-// Each project follows a common philosophy:
+##  Featured Projects
+
+###  TAlgo — Adaptive Trading Engine
+Rule-based, real-time trading system designed to eliminate emotional decision-making.
+```
+- Event-driven architecture (WebSocket + OHLC pipeline)
+- Indicator-based strategy (EMA, HMA, ALMA)
+- State-machine decision system
+- Fully explainable via logs
+```
+ Docs:  
+- [Architecture](https://github.com/Jvkrog/TAlgo/blob/main/Docs/architecture.md)  
+- [Strategy](https://github.com/Jvkrog/TAlgo/blob/main/Docs/strategy.md)
+
+---
+
+###  WiFi Car (ESP32-CAM Rover)
+Real-time video streaming rover with web-based control.
+```
+- ESP32-CAM streaming
+- Remote navigation via browser
+- Embedded motor control (L298N)
+```
+---
+
+###  FireBot
+Mobile fire detection system with IoT monitoring.
+```
+- Sensor-based fire detection
+- Real-time alerts
+- Remote monitoring capability
+```
+---
+
+###  Smart Wrist Band
+Wearable safety system with fall detection and alerts.
+```
+- MPU6050 motion sensing
+- Blynk dashboard integration
+- Telegram alert system
+```
+---
+
+##  Overview
+
+This repository documents my journey in building **autonomous and semi-autonomous systems** across:
+```
+- embedded hardware  
+- IoT systems  
+- algorithmic decision engines  
+```
+Focus areas:
+```
+- system behavior  
+- failure-driven iteration  
+- explainable decisions  
+- reducing human dependency in critical moments  
+```
 
 > **Observe → Decide → Act**
 
-Failures are intentionally preserved and documented, as they directly shaped later design choices.
+---
+
+##  Core Skills
+```
+- **Programming:** C, Python, JavaScript (Node.js)  
+- **Embedded:** ESP32, ESP8266, MPU6050, Sensors, Motor Drivers  
+- **Systems:** Event-driven architecture, WebSockets, SQLite  
+- **Tools:** AWS Ubuntu, PM2, Git, SSH  
+```
+---
+
+##  Design Philosophy
+```
+- Prefer **simple, explainable logic** over black-box systems  
+- Treat emotions as **system bugs**  
+- Accept that *no action* is also a decision  
+- Build systems that explain **why**, not just **what**
+```
+---
+
+##  GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jvkrog&show_icons=true&theme=tokyonight)
 
 ---
 
-// Project Areas
-
-//  Embedded & Robotics
-- **WiFi Car (ESP32-CAM Rover)**  
-  Real-time video streaming and web-based remote control.
-
-- **FireBot **  
-  Mobile fire detection with IoT-based monitoring.
-
-- **Smart Wrist Band**  
-  Wearable safety system with fall detection, Blynk dashboard, and Telegram alerts.
-
+##  Research Direction
+```
+- AI-assisted explanation layers  
+- Autonomous robotics with reasoning logs  
+- Purpose-driven AI systems  
+```
 ---
 
-//  Algorithmic Decision Systems
-- **Trading Algorithm (TAlgo)**  
-  A rule-based trading system built to reduce emotional decision-making such as fear, greed, and revenge trading.
+##  Mission
 
-  Each version exists because the previous one failed under specific market conditions.  
-  Strategies are documented as evolving experiments rather than fixed solutions.
-
+To build systems that:
+```
+- reduce human error  
+- operate reliably under uncertainty  
+- explain their decisions clearly  
+```
 ---
 
-// Design Philosophy
+##  Note
+```
+This repository prioritizes **learning through failure** over showcasing only successful outcomes.
 
-- Prefer **simple, explainable logic** over complex black-box systems
-- Treat emotions as **system bugs**, not personal flaws
-- Accept that *no action* is also a valid decision
-- Build systems that can explain **why** a decision was made
-
+Failures are preserved because they directly shape better systems.
+```
 ---
-
-// Why This Repository Exists
-
-Most projects focus on success stories.  
-This repository focuses on **learning through failure** and building systems that become more robust over time.
-
-The goal is not optimization at any cost, but **clarity, stability, and purpose-driven automation**.
-
----
-
-// Future Direction
-- AI-assisted explanation layers for decision systems
-- Autonomous robotics with reasoning logs
-- Purpose-driven AI: systems that explain their actions, not just execute them
