@@ -8,12 +8,12 @@
 
 ###  TAlgo — Adaptive Trading Engine
 Rule-based, real-time trading system designed to eliminate emotional decision-making.
-```
+
 - Event-driven architecture (WebSocket + OHLC pipeline)
 - Indicator-based strategy (EMA, HMA, ALMA)
 - State-machine decision system
 - Fully explainable via logs
-```
+
  Docs:  
 - [Architecture](https://github.com/Jvkrog/TAlgo/blob/main/Docs/architecture.md)  
 - [Strategy](https://github.com/Jvkrog/TAlgo/blob/main/Docs/strategy.md)
@@ -22,67 +22,67 @@ Rule-based, real-time trading system designed to eliminate emotional decision-ma
 
 ###  WiFi Car (ESP32-CAM Rover)
 Real-time video streaming rover with web-based control.
-```
+
 - ESP32-CAM streaming
 - Remote navigation via browser
 - Embedded motor control (L298N)
-```
+
 ---
 
 ###  FireBot
 Mobile fire detection system with IoT monitoring.
-```
+
 - Sensor-based fire detection
 - Real-time alerts
 - Remote monitoring capability
-```
+
 ---
 
 ###  Smart Wrist Band
 Wearable safety system with fall detection and alerts.
-```
+
 - MPU6050 motion sensing
 - Blynk dashboard integration
 - Telegram alert system
-```
+
 ---
 
 ##  Overview
 
 This repository documents my journey in building **autonomous and semi-autonomous systems** across:
-```
+
 - embedded hardware  
 - IoT systems  
 - algorithmic decision engines  
-```
+
 Focus areas:
-```
+
 - system behavior  
 - failure-driven iteration  
 - explainable decisions  
 - reducing human dependency in critical moments  
-```
+
 
 > **Observe → Decide → Act**
 
 ---
 
 ##  Core Skills
-```
+
 - **Programming:** C, Python, JavaScript (Node.js)  
 - **Embedded:** ESP32, ESP8266, MPU6050, Sensors, Motor Drivers  
 - **Systems:** Event-driven architecture, WebSockets, SQLite  
 - **Tools:** AWS Ubuntu, PM2, Git, SSH  
-```
+
 ---
 
 ##  Design Philosophy
-```
+
 - Prefer **simple, explainable logic** over black-box systems  
 - Treat emotions as **system bugs**  
 - Accept that *no action* is also a decision  
 - Build systems that explain **why**, not just **what**
-```
+
 ---
 
 ##  GitHub Stats
@@ -92,27 +92,27 @@ Focus areas:
 ---
 
 ##  Research Direction
-```
+
 - AI-assisted explanation layers  
 - Autonomous robotics with reasoning logs  
 - Purpose-driven AI systems  
-```
+
 ---
 
 ##  Mission
 
 To build systems that:
-```
+
 - reduce human error  
 - operate reliably under uncertainty  
 - explain their decisions clearly  
-```
+
 ---
 
 ##  Note
-```
+
 This repository prioritizes **learning through failure** over showcasing only successful outcomes.
 
 Failures are preserved because they directly shape better systems.
-```
+
 ---
