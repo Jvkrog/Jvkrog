@@ -6,6 +6,17 @@
 
 ##  Featured Projects
 
+###  TAlgo-X — Multi-Engine Trading System
+Production-grade trading execution system with dual-engine architecture and real-time decision logic.
+
+- Multi-engine design (FAST + SLOW execution layers)
+- ALMA-based adaptive strategy (fast + slow)
+- Position persistence using SQLite
+- Lifecycle control (session handling, EOD risk management)
+- Real-time alerts via Telegram
+
+---
+
 ###  TAlgo — Adaptive Trading Engine
 Rule-based, real-time trading system designed to eliminate emotional decision-making.
 
@@ -23,27 +34,27 @@ Rule-based, real-time trading system designed to eliminate emotional decision-ma
 ###  WiFi Car (ESP32-CAM Rover)
 Real-time video streaming rover with web-based control.
 
-- ESP32-CAM streaming
-- Remote navigation via browser
-- Embedded motor control (L298N)
+- ESP32-CAM streaming  
+- Remote navigation via browser  
+- Embedded motor control (L298N)  
 
 ---
 
 ###  FireBot
 Mobile fire detection system with IoT monitoring.
 
-- Sensor-based fire detection
-- Real-time alerts
-- Remote monitoring capability
+- Sensor-based fire detection  
+- Real-time alerts  
+- Remote monitoring capability  
 
 ---
 
 ###  Smart Wrist Band
 Wearable safety system with fall detection and alerts.
 
-- MPU6050 motion sensing
-- Blynk dashboard integration
-- Telegram alert system
+- MPU6050 motion sensing  
+- Blynk dashboard integration  
+- Telegram alert system  
 
 ---
 
@@ -61,7 +72,6 @@ Focus areas:
 - failure-driven iteration  
 - explainable decisions  
 - reducing human dependency in critical moments  
-
 
 > **Observe → Decide → Act**
 
@@ -84,8 +94,6 @@ Focus areas:
 - Build systems that explain **why**, not just **what**
 
 ---
-
-
 
 ##  Research Direction
 
