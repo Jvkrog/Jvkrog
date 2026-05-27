@@ -179,8 +179,8 @@ Failures are preserved because they directly contribute to stronger and more rel
 
 ## Disclaimer
 
-The repositories TAlgo-X and TAlgo are for research and educational purposes only.  
+The TAlgo and TAlgo-X repositories are intended for research and educational purposes only.  
 No financial advice is provided.  
-Live deployment configurations, credentials, and sensitive runtime data are excluded.
+Live deployment configurations, credentials, and sensitive runtime data are intentionally excluded.
 
 ---
