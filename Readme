@@ -1,122 +1,176 @@
 # Jvkrog — Autonomous Systems & Decision Engineering
 
-> Building systems that observe, decide, and act — with minimal human dependency.
+> Building autonomous systems that observe, decide, and act with minimal human dependency.
 
 ---
 
-##  Featured Projects
+## Featured Projects
 
-###  TAlgo-X — Multi-Engine Trading System
-Production-grade trading execution system with dual-engine architecture and real-time decision logic.
+### TAlgo-X — Multi-Engine Trading Infrastructure
 
-- Multi-engine design (FAST + SLOW execution layers)
-- ALMA-based adaptive strategy (fast + slow)
-- Position persistence using SQLite
-- Lifecycle control (session handling, EOD risk management)
-- Real-time alerts via Telegram
+Production-grade autonomous trading infrastructure built around adaptive execution logic, regime-aware filtering, and deterministic runtime behavior.
 
----
-
-###  TAlgo — Adaptive Trading Engine
-Rule-based, real-time trading system designed to eliminate emotional decision-making.
-
-- Event-driven architecture (WebSocket + OHLC pipeline)
-- Indicator-based strategy (EMA, HMA, ALMA)
-- State-machine decision system
-- Fully explainable via logs
-
- Docs:  
-- [Architecture](https://github.com/Jvkrog/TAlgo/blob/main/Docs/architecture.md)  
-- [Strategy](https://github.com/Jvkrog/TAlgo/blob/main/Docs/strategy.md)
+* Dual-engine architecture (FAST + SLOW ALMA execution layers)
+* ADX and RSI-based trend-strength and volatility filtering
+* Adaptive regime-aware signal generation
+* Position persistence using SQLite
+* Session lifecycle management and EOD risk controls
+* Real-time Telegram monitoring and alert pipeline
+* Structured runtime logging and explainable execution flow
 
 ---
 
-###  WiFi Car (ESP32-CAM Rover)
-Real-time video streaming rover with web-based control.
+### TAlgo — Adaptive Trading Engine
 
-- ESP32-CAM streaming  
-- Remote navigation via browser  
-- Embedded motor control (L298N)  
+Real-time rule-based trading engine focused on systematic execution and emotional-risk reduction.
 
----
+* Event-driven architecture (WebSocket + OHLC pipeline)
+* EMA, HMA, and ALMA-based signal systems
+* Runtime state-machine decision architecture
+* Explainable signal generation and execution logs
+* Risk-aware execution workflow with lifecycle controls
 
-###  FireBot
-Mobile fire detection system with IoT monitoring.
+**Docs:**
 
-- Sensor-based fire detection  
-- Real-time alerts  
-- Remote monitoring capability  
-
----
-
-###  Smart Wrist Band
-Wearable safety system with fall detection and alerts.
-
-- MPU6050 motion sensing  
-- Blynk dashboard integration  
-- Telegram alert system  
+* [Architecture](https://github.com/Jvkrog/TAlgo/blob/main/Docs/architecture.md)
+* [Strategy](https://github.com/Jvkrog/TAlgo/blob/main/Docs/strategy.md)
 
 ---
 
-##  Overview
+### ALMA-Backtester-Python
 
-This repository documents my journey in building **autonomous and semi-autonomous systems** across:
+Modular Python-based ALMA strategy backtesting framework with adaptive signal analysis, trade simulation, and visualization.
 
-- embedded hardware  
-- IoT systems  
-- algorithmic decision engines  
+* ALMA slope-based BUY / SELL regime classification
+* ATR-driven stop-loss and take-profit system
+* Historical backtesting and equity curve analysis
+* Trade lifecycle simulation and P&L tracking
+* Multi-panel visualization dashboard
+* Yahoo Finance market data integration
 
-Focus areas:
+---
 
-- system behavior  
-- failure-driven iteration  
-- explainable decisions  
-- reducing human dependency in critical moments  
+### WiFi Car (ESP32-CAM Rover)
+
+Embedded robotic rover with real-time video streaming and browser-based navigation.
+
+* ESP32-CAM live video streaming
+* Wireless browser-controlled movement
+* Embedded motor control using L298N
+* Real-time remote navigation architecture
+
+---
+
+### FireBot
+
+IoT-enabled mobile fire detection and monitoring system.
+
+* Sensor-driven fire detection
+* Real-time alert pipeline
+* Remote monitoring capability
+* Embedded safety-focused architecture
+
+---
+
+### Smart Wrist Band
+
+Wearable safety and monitoring system with motion analysis and emergency alerts.
+
+* MPU6050 motion sensing
+* Fall-detection mechanism
+* Blynk dashboard integration
+* Telegram-based alert system
+
+---
+
+## Overview
+
+This repository documents my work in building **autonomous and semi-autonomous systems** across:
+
+* algorithmic trading infrastructure
+* embedded systems
+* IoT architectures
+* runtime decision engines
+
+Primary focus areas:
+
+* deterministic runtime behavior
+* failure-driven iteration
+* explainable decision systems
+* adaptive risk management
+* reducing human dependency in critical workflows
 
 > **Observe → Decide → Act**
 
 ---
 
-##  Core Skills
+## Core Skills
 
-- **Programming:** C, Python, JavaScript (Node.js)  
-- **Embedded:** ESP32, ESP8266, MPU6050, Sensors, Motor Drivers  
-- **Systems:** Event-driven architecture, WebSockets, SQLite  
-- **Tools:** AWS Ubuntu, PM2, Git, SSH  
+### Programming
+
+* Python
+* JavaScript (Node.js)
+* C
+
+### Embedded Systems
+
+* ESP32
+* ESP8266
+* MPU6050
+* Sensors & motor drivers
+
+### Systems & Infrastructure
+
+* Event-driven systems
+* WebSockets
+* SQLite
+* Runtime lifecycle management
+* State-machine architectures
+* Adaptive risk systems
+
+### Tools & Platforms
+
+* AWS Ubuntu
+* PM2
+* Git
+* SSH
+* Telegram Bot API
 
 ---
 
-##  Design Philosophy
+## Design Philosophy
 
-- Prefer **simple, explainable logic** over black-box systems  
-- Treat emotions as **system bugs**  
-- Accept that *no action* is also a decision  
-- Build systems that explain **why**, not just **what**
-
----
-
-##  Research Direction
-
-- AI-assisted explanation layers  
-- Autonomous robotics with reasoning logs  
-- Purpose-driven AI systems  
+* Prefer **simple and explainable systems** over opaque complexity
+* Treat emotional interference as a **system instability problem**
+* Build around **failure containment and recovery**
+* Prioritize deterministic and observable runtime behavior
+* Design systems that explain **why**, not only **what**
 
 ---
 
-##  Mission
+## Research Direction
+
+* AI-assisted reasoning and explanation systems
+* Autonomous robotics with transparent decision layers
+* Runtime-aware adaptive execution systems
+* Reliability-focused autonomous infrastructure
+
+---
+
+## Mission
 
 To build systems that:
 
-- reduce human error  
-- operate reliably under uncertainty  
-- explain their decisions clearly  
+* reduce human error
+* operate reliably under uncertainty
+* adapt to changing environments
+* explain decisions transparently
 
 ---
 
-##  Note
+## Note
 
-This repository prioritizes **learning through failure** over showcasing only successful outcomes.
+This repository prioritizes **learning through iteration, experimentation, and failure analysis** rather than showcasing only successful outcomes.
 
-Failures are preserved because they directly shape better systems.
+Failures are preserved because they directly contribute to stronger and more reliable systems.
 
----
