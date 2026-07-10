@@ -1,4 +1,4 @@
-# Jvkrog — Autonomous Systems & Decision Engineering
+# Jvkrog — Building autonomous backend systems, AI-assisted trading infrastructure, and deterministic execution platforms.
 
 > Building autonomous systems that observe, decide, and act with minimal human dependency.
 
@@ -48,6 +48,48 @@ Instead of maintaining separate strategy implementations per instrument, TAlgo-X
 * Explainable decision flow
 
 ---
+
+## TAlgo-AI — AI Trade Intelligence Platform
+
+AI-assisted analysis platform designed to explain **why** the trading engine behaved the way it did, turning execution logs into structured trading insights.
+
+Instead of acting as an AI trading bot, TAlgo-AI functions as an **AI reasoning layer** sitting above the execution engine.
+
+### Architecture
+
+```
+Trading Engine
+      │
+      ▼
+Structured Runtime Logs
+      │
+      ▼
+Log Parser
+      │
+      ▼
+Trade Objects
+      │
+      ▼
+AI Analysis Engine
+      │
+      ▼
+React Dashboard
+```
+
+### Features
+
+* Runtime log parsing into structured trade data
+* Historical session reconstruction
+* AI-powered post-trade analysis
+* Trade grading and execution review
+* Indicator state interpretation
+* Entry and exit reasoning
+* REST API backend
+* Interactive React dashboard
+* Explainable AI reports for every completed trade
+
+---
+
 
 ## TAlgo — Adaptive Trading Engine
 
