@@ -6,8 +6,8 @@
 
 # Featured Projects
 
-## TAlgo-X — One Brain, Multiple Instruments
-
+## TAlgo-X — One Brain, Multiple Instruments  (Website: https://jvkrog.github.io/TAlgo-X-Website/)
+   
 Production-grade autonomous trading infrastructure built around a **single deterministic trading brain** capable of operating across multiple market instruments through isolated runtime contexts.
 
 Instead of maintaining separate strategy implementations per instrument, TAlgo-X separates:
