@@ -1,22 +1,15 @@
-# Jvkrog — Building autonomous backend systems, AI-assisted trading infrastructure, and deterministic execution platforms.
+# Jvkrog
 
-> Building autonomous systems that observe, decide, and act with minimal human dependency.
+> Building autonomous backend systems, AI-assisted trading infrastructure, and deterministic execution platforms.
 
 ---
 
 # Featured Projects
 
-## TAlgo-X — One Brain, Multiple Instruments  (Website: https://jvkrog.github.io/TAlgo-X-Website/)
-   
-Production-grade autonomous trading infrastructure built around a **single deterministic trading brain** capable of operating across multiple market instruments through isolated runtime contexts.
+## TAlgo-X — One Brain, Multiple Instruments
+🌐 https://jvkrog.github.io/TAlgo-X-Website/
 
-Instead of maintaining separate strategy implementations per instrument, TAlgo-X separates:
-
-* **Brain** — trading intelligence
-* **Context** — instrument configuration and runtime state
-* **Toolbox** — deployment and lifecycle management
-
-### Current Architecture
+Production-grade autonomous trading infrastructure built around a **single deterministic trading brain** operating across multiple instruments through isolated runtime contexts.
 
 ```
                  TAlgo-X Toolbox
@@ -33,245 +26,157 @@ Instead of maintaining separate strategy implementations per instrument, TAlgo-X
                Signal → Risk → Orders
 ```
 
-### Features
+**Features**
 
-* One Brain architecture
-* Multi-instrument runtime contexts
-* Dynamic instrument onboarding
-* Manual contract rollover management
-* PM2 process lifecycle management
-* Deterministic candle-driven execution
-* SQLite position persistence
-* Runtime state recovery
-* Telegram monitoring pipeline
-* Structured execution logging
-* Explainable decision flow
+- One Brain architecture
+- Multi-instrument runtime contexts
+- Dynamic instrument onboarding
+- Deterministic candle-driven execution
+- SQLite state persistence & recovery
+- Manual contract rollover
+- PM2 lifecycle management
+- Telegram monitoring
+- Structured execution logging
+- Explainable decision flow
 
 ---
 
 ## TAlgo-AI — AI Trade Intelligence Platform
 
-AI-assisted analysis platform designed to explain **why** the trading engine behaved the way it did, turning execution logs into structured trading insights.
-
-Instead of acting as an AI trading bot, TAlgo-AI functions as an **AI reasoning layer** sitting above the execution engine.
-
-### Architecture
+AI reasoning layer that converts trading logs into structured insights instead of placing trades.
 
 ```
 Trading Engine
       │
-      ▼
-Structured Runtime Logs
+Structured Logs
       │
-      ▼
 Log Parser
       │
-      ▼
 Trade Objects
       │
-      ▼
-AI Analysis Engine
+AI Analysis
       │
-      ▼
 React Dashboard
 ```
 
-### Features
+**Features**
 
-* Runtime log parsing into structured trade data
-* Historical session reconstruction
-* AI-powered post-trade analysis
-* Trade grading and execution review
-* Indicator state interpretation
-* Entry and exit reasoning
-* REST API backend
-* Interactive React dashboard
-* Explainable AI reports for every completed trade
+- Runtime log parsing
+- Session reconstruction
+- AI post-trade analysis
+- Trade grading
+- Indicator interpretation
+- Entry/exit reasoning
+- REST API
+- React dashboard
 
 ---
 
-
 ## TAlgo — Adaptive Trading Engine
 
-The original research engine that evolved into TAlgo-X.
+Research engine that evolved into TAlgo-X.
 
-Focused on experimenting with execution models, market structure interpretation, and deterministic runtime behaviour.
+**Features**
 
-### Features
+- Event-driven architecture
+- ALMA & SuperTrend execution
+- Explainable signals
+- Runtime lifecycle management
+- Risk-aware execution
 
-* Event-driven architecture
-* ALMA and SuperTrend based execution
-* Explainable signal generation
-* Runtime lifecycle management
-* Risk-aware execution workflow
-
-**Docs**
-
-* Architecture
-* Strategy
+Documentation:
+- Architecture
+- Strategy
 
 ---
 
 ## ALMA Backtester (Python)
 
-Python research framework for validating trading ideas before production deployment.
+Research framework for validating strategies before production.
 
-### Features
-
-* Historical trade simulation
-* ATR-based risk modelling
-* ALMA regime analysis
-* Performance visualization
-* Equity curve generation
+- Historical simulation
+- ATR risk modelling
+- ALMA regime analysis
+- Performance visualization
+- Equity curves
 
 ---
 
-## ESP32-CAM Rover
+## Embedded Projects
 
-Autonomous embedded rover with browser-controlled navigation.
+### ESP32-CAM Rover
+- Live camera streaming
+- Browser-based control
+- Wireless navigation
 
-* ESP32-CAM streaming
-* Remote motor control
-* Wireless operation
+### FireBot
+- Fire detection
+- Remote monitoring
+- Safety alerts
 
----
-
-## FireBot
-
-Embedded fire detection and monitoring platform.
-
-* Fire sensing
-* Remote alerts
-* Safety-focused architecture
-
----
-
-## Smart Wrist Band
-
-Wearable emergency monitoring system.
-
-* MPU6050 motion analysis
-* Fall detection
-* Telegram notifications
-
----
-
-# Overview
-
-This repository documents my work in designing autonomous systems across:
-
-* Trading infrastructure
-* Backend engineering
-* Embedded systems
-* Runtime orchestration
-* Decision engines
-
-My work focuses on building software that remains deterministic under uncertainty while minimizing operational complexity.
-
-Core engineering themes include:
-
-* autonomous execution
-* explainable decisions
-* runtime isolation
-* failure recovery
-* deterministic state management
-* infrastructure simplicity
-
-> Observe → Decide → Act
+### Smart Wrist Band
+- MPU6050 fall detection
+- Motion analysis
+- Telegram notifications
 
 ---
 
 # Engineering Focus
 
-### Backend Engineering
+**Backend**
+- Node.js
+- Event-driven systems
+- Runtime orchestration
+- SQLite
+- PM2
 
-* Node.js
-* Event-driven systems
-* Runtime orchestration
-* Process management
-* SQLite
-* PM2
+**Trading Infrastructure**
+- Multi-instrument execution
+- Context-driven architecture
+- Position lifecycle
+- Risk management
+- Market data pipelines
 
-### Trading Infrastructure
+**Embedded**
+- ESP32 / ESP8266
+- MPU6050
+- Sensors
+- Motor control
 
-* Multi-instrument execution
-* Context-driven architecture
-* Position lifecycle management
-* Risk management
-* Market data pipelines
-* Candle-driven execution
-
-### Embedded Systems
-
-* ESP32
-* ESP8266
-* MPU6050
-* Sensors
-* Motor control
-
-### Infrastructure
-
-* AWS Ubuntu
-* SSH
-* Git
-* Telegram Bot API
+**Infrastructure**
+- AWS Ubuntu
+- SSH
+- Git
+- Telegram Bot API
 
 ---
 
 # Design Philosophy
 
-I prefer architectures that remain understandable months after they are written.
+I build systems that are:
 
-Principles guiding every project:
+- Deterministic
+- Explainable
+- Context-driven
+- Simple to operate
+- Easy to reason about
+- Resilient to failure
 
-* One responsibility per component
-* Context over duplication
-* Simplicity before optimization
-* Deterministic execution over hidden automation
-* Systems should explain why decisions were made
-* Operational tooling should reduce cognitive load
+> Observe → Decide → Act
 
 ---
 
 # Current Research
 
-Current work focuses on evolving TAlgo-X into a generalized autonomous execution platform through:
-
-* Context-based multi-instrument execution
-* Runtime orchestration
-* Deployment tooling
-* Adaptive execution filters
-* Explainable decision systems
-* Reliability engineering
-
----
-
-# Mission
-
-Build systems that:
-
-* reduce human error
-* recover from failure gracefully
-* remain deterministic under uncertainty
-* explain their own decisions
-* scale through architecture rather than duplication
-
----
-
-# Learning Philosophy
-
-This repository documents both successful implementations and failed experiments.
-
-Design iterations, discarded approaches, and architectural refactors are intentionally preserved because they demonstrate the engineering reasoning behind the final systems.
+- Multi-instrument execution
+- Runtime orchestration
+- Deployment tooling
+- Adaptive execution filters
+- Explainable AI
+- Reliability engineering
 
 ---
 
 # Disclaimer
 
-TAlgo and TAlgo-X are research and educational projects.
-
-They are intended to explore autonomous trading infrastructure, runtime architecture, and software engineering practices.
-
-Live deployment credentials, proprietary configurations, and sensitive operational data are intentionally excluded.
-
----
+TAlgo and TAlgo-X are research and educational projects exploring autonomous trading infrastructure and software engineering. Live deployment credentials, proprietary configurations, and sensitive operational data are intentionally excluded.
