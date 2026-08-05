@@ -1,104 +1,133 @@
 # Jvkrog
 
-> Building autonomous backend systems, AI-assisted trading infrastructure, and deterministic execution platforms.
+> Building autonomous backend systems, trading infrastructure, and deterministic execution platforms.
 
 ---
 
 # Featured Projects
 
-## TAlgo-X — One Brain, Multiple Instruments
+## TAlgo-X — Autonomous Trading Execution Platform
 🌐 https://jvkrog.github.io/TAlgo-X-Website/
 
-Production-grade autonomous trading infrastructure built around a **single deterministic trading brain** operating across multiple instruments through isolated runtime contexts.
+Production-grade trading infrastructure built around a **single deterministic execution brain** capable of operating multiple market instruments through isolated runtime contexts.
 
-```
-                 TAlgo-X Toolbox
+TAlgo-X combines a powerful **CLI operator toolkit** with a **real-time web dashboard**, enabling deployment, monitoring, and management of live trading engines from a unified platform.
+
+```text
+                    TAlgo-X
+                        │
+         ┌──────────────┴──────────────┐
+         │                             │
+    CLI Toolbox                Web Dashboard
+         │                             │
+         └──────────────┬──────────────┘
+                        │
+                 Runtime Orchestrator
                         │
         ┌───────────────┼───────────────┐
         │               │               │
-     NatGas         Zinc          Aluminium
+     NatGas         Zinc          USDINR
      Context        Context        Context
         │               │               │
         └───────────────┼───────────────┘
                         │
-                Deterministic Brain
+               Deterministic Brain
                         │
-               Signal → Risk → Orders
+        Market → Strategy → Risk → Orders
 ```
 
-**Features**
+### Platform Features
 
-- One Brain architecture
-- Multi-instrument runtime contexts
-- Dynamic instrument onboarding
-- Deterministic candle-driven execution
+#### Runtime
+- One Brain multi-instrument architecture
+- Context-driven execution
+- Deterministic candle-driven runtime
 - SQLite state persistence & recovery
+- PM2 process lifecycle management
 - Manual contract rollover
-- PM2 lifecycle management
-- Telegram monitoring
 - Structured execution logging
-- Explainable decision flow
+
+#### Operator Interfaces
+
+**CLI Toolbox**
+- Engine deployment
+- Instrument management
+- Backtesting
+- Runtime control
+- Configuration management
+- Live execution
+
+**Web Dashboard**
+- Live engine monitoring
+- Runtime telemetry
+- Position & PnL tracking
+- Engine lifecycle management
+- Real-time execution logs
+- Browser-based operator console
+
+#### Trading Infrastructure
+
+- Market-state driven execution
+- Multi-engine runtime
+- Telegram notifications
+- Explainable execution flow
+- Strategy orchestration
+- Production-ready deployment workflow
 
 ---
 
 ## TAlgo-AI — AI Trade Intelligence Platform
 
-AI reasoning layer that converts trading logs into structured insights instead of placing trades.
+AI reasoning layer that transforms execution logs into explainable trading insights.
 
-```
+```text
 Trading Engine
       │
-Structured Logs
+Structured Runtime Logs
       │
-Log Parser
-      │
-Trade Objects
+Trade Reconstruction
       │
 AI Analysis
       │
-React Dashboard
+Interactive Dashboard
 ```
 
 **Features**
 
 - Runtime log parsing
-- Session reconstruction
-- AI post-trade analysis
+- Historical session reconstruction
+- AI-assisted trade review
 - Trade grading
 - Indicator interpretation
-- Entry/exit reasoning
-- REST API
+- Entry & exit reasoning
+- REST API backend
 - React dashboard
 
 ---
 
 ## TAlgo — Adaptive Trading Engine
 
-Research engine that evolved into TAlgo-X.
+Research environment where execution models, indicators, and market-state algorithms are developed before deployment into TAlgo-X.
 
 **Features**
 
+- Strategy experimentation
 - Event-driven architecture
-- ALMA & SuperTrend execution
 - Explainable signals
 - Runtime lifecycle management
 - Risk-aware execution
-
-Documentation:
-- Architecture
-- Strategy
 
 ---
 
 ## ALMA Backtester (Python)
 
-Research framework for validating strategies before production.
+Research framework for validating trading ideas before production deployment.
 
 - Historical simulation
 - ATR risk modelling
-- ALMA regime analysis
+- Regime analysis
 - Performance visualization
-- Equity curves
+- Equity curve generation
 
 ---
 
@@ -115,35 +144,39 @@ Research framework for validating strategies before production.
 - Safety alerts
 
 ### Smart Wrist Band
-- MPU6050 fall detection
-- Motion analysis
+- MPU6050 motion analysis
+- Fall detection
 - Telegram notifications
 
 ---
 
 # Engineering Focus
 
-**Backend**
+### Backend Engineering
 - Node.js
 - Event-driven systems
 - Runtime orchestration
 - SQLite
 - PM2
+- Express
+- Socket.IO
 
-**Trading Infrastructure**
+### Trading Infrastructure
 - Multi-instrument execution
-- Context-driven architecture
-- Position lifecycle
-- Risk management
-- Market data pipelines
+- Runtime orchestration
+- Market-state systems
+- Position lifecycle management
+- Broker integration
+- Backtesting
+- Deployment tooling
 
-**Embedded**
+### Embedded Systems
 - ESP32 / ESP8266
 - MPU6050
 - Sensors
 - Motor control
 
-**Infrastructure**
+### Infrastructure
 - AWS Ubuntu
 - SSH
 - Git
@@ -158,9 +191,9 @@ I build systems that are:
 - Deterministic
 - Explainable
 - Context-driven
-- Simple to operate
-- Easy to reason about
-- Resilient to failure
+- Operationally simple
+- Failure-aware
+- Easy to extend
 
 > Observe → Decide → Act
 
@@ -168,15 +201,18 @@ I build systems that are:
 
 # Current Research
 
-- Multi-instrument execution
+- Autonomous execution platforms
 - Runtime orchestration
+- Market-state modelling
+- Strategy selection
 - Deployment tooling
-- Adaptive execution filters
-- Explainable AI
+- AI-assisted observability
 - Reliability engineering
 
 ---
 
 # Disclaimer
 
-TAlgo and TAlgo-X are research and educational projects exploring autonomous trading infrastructure and software engineering. Live deployment credentials, proprietary configurations, and sensitive operational data are intentionally excluded.
+TAlgo and TAlgo-X are research and educational projects exploring autonomous trading infrastructure, backend systems, and software engineering.
+
+Live deployment credentials, proprietary configurations, and sensitive operational data are intentionally excluded.
