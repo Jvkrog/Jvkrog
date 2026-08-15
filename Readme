@@ -1,11 +1,10 @@
-Bro, for a GitHub profile README, **compressing is the right move**. The key thing to preserve is that **TAlgo-X has both the CLI and WebDash as operator interfaces**, not just a trading engine.
 
 ````md
 # Jvkrog
 
 > Building autonomous backend systems, trading infrastructure, and deterministic execution platforms.
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### TAlgo-X — Autonomous Trading Execution Platform
 🌐 https://jvkrog.github.io/TAlgo-X-Website/
