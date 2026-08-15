@@ -1,218 +1,122 @@
+Bro, for a GitHub profile README, **compressing is the right move**. The key thing to preserve is that **TAlgo-X has both the CLI and WebDash as operator interfaces**, not just a trading engine.
+
+````md
 # Jvkrog
 
 > Building autonomous backend systems, trading infrastructure, and deterministic execution platforms.
 
----
+## 🚀 Featured Projects
 
-# Featured Projects
-
-## TAlgo-X — Autonomous Trading Execution Platform
+### TAlgo-X — Autonomous Trading Execution Platform
 🌐 https://jvkrog.github.io/TAlgo-X-Website/
 
-Production-grade trading infrastructure built around a **single deterministic execution brain** capable of operating multiple market instruments through isolated runtime contexts.
-
-TAlgo-X combines a powerful **CLI operator toolkit** with a **real-time web dashboard**, enabling deployment, monitoring, and management of live trading engines from a unified platform.
+Production-grade trading infrastructure built around a deterministic, multi-instrument execution runtime.
 
 ```text
-                    TAlgo-X
-                        │
-         ┌──────────────┴──────────────┐
-         │                             │
-    CLI Toolbox                Web Dashboard
-         │                             │
-         └──────────────┬──────────────┘
-                        │
-                 Runtime Orchestrator
-                        │
-        ┌───────────────┼───────────────┐
-        │               │               │
-     NatGas         Zinc          USDINR
-     Context        Context        Context
-        │               │               │
-        └───────────────┼───────────────┘
-                        │
-               Deterministic Brain
-                        │
-        Market → Strategy → Risk → Orders
+                 TAlgo-X
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+      CLI Toolbox            WebDash
+          │                     │
+          └──────────┬──────────┘
+                     │
+             Runtime Orchestrator
+                     │
+        ┌────────────┼────────────┐
+      NatGas       Zinc        USDINR
+                     │
+            Market → Strategy → Risk → Orders
+````
+
+**Operator Interfaces**
+
+* **CLI Toolbox** — deployment, engine control, backtesting, configuration, and live execution
+* **WebDash** — real-time monitoring, positions, PnL, logs, telemetry, and engine lifecycle management
+
+**Core**
+
+* One-brain, multi-instrument architecture
+* Context-driven deterministic execution
+* SQLite state persistence & recovery
+* PM2 lifecycle management
+* Structured logging and Telegram alerts
+* Production deployment workflow
+
+---
+
+### TAlgo-AI — AI Trade Intelligence Platform
+
+Transforms structured trading logs into explainable insights.
+
+**Log Analysis → Trade Reconstruction → AI Review → Interactive Dashboard**
+
+* Trade grading and session reconstruction
+* Entry/exit and indicator interpretation
+* REST API + React dashboard
+
+---
+
+### TAlgo — Adaptive Trading Engine
+
+Research environment for developing and validating execution models before deployment into TAlgo-X.
+
+* Strategy experimentation
+* Event-driven architecture
+* Market-state modelling
+* Explainable, risk-aware execution
+
+---
+
+### ALMA Backtester
+
+Python-based research framework for validating trading ideas.
+
+* Historical simulation
+* ATR risk modelling
+* Regime analysis
+* Performance visualization
+
+---
+
+## 🔧 Embedded Systems
+
+**ESP32-CAM Rover** — live streaming and browser control
+**FireBot** — fire detection and remote alerts
+**Smart Wrist Band** — MPU6050 fall detection and Telegram notifications
+
+---
+
+## Engineering Focus
+
+**Backend & Infrastructure**
+Node.js • Event-driven Systems • SQLite • PM2 • Express • Socket.IO • AWS Ubuntu
+
+**Trading Systems**
+Multi-instrument Execution • Runtime Orchestration • Position Lifecycle • Broker Integration • Backtesting • Deployment Tooling
+
+**Embedded**
+ESP32/ESP8266 • MPU6050 • Sensors • Motor Control
+
+---
+
+## Philosophy
+
+> **Observe → Decide → Act**
+
+I build systems that are deterministic, explainable, context-driven, failure-aware, and operationally simple.
+
+---
+
+### Disclaimer
+
+TAlgo and TAlgo-X are research and educational projects. Live credentials, proprietary configurations, and sensitive operational data are excluded.
+
 ```
 
-### Platform Features
+This version is much cleaner for your profile. The **TAlgo-X section immediately shows the architecture**, and importantly:
 
-#### Runtime
-- One Brain multi-instrument architecture
-- Context-driven execution
-- Deterministic candle-driven runtime
-- SQLite state persistence & recovery
-- PM2 process lifecycle management
-- Manual contract rollover
-- Structured execution logging
+**CLI Toolbox + WebDash → Runtime Orchestrator → Trading Engines**
 
-#### Operator Interfaces
-
-**CLI Toolbox**
-- Engine deployment
-- Instrument management
-- Backtesting
-- Runtime control
-- Configuration management
-- Live execution
-
-**Web Dashboard**
-- Live engine monitoring
-- Runtime telemetry
-- Position & PnL tracking
-- Engine lifecycle management
-- Real-time execution logs
-- Browser-based operator console
-
-#### Trading Infrastructure
-
-- Market-state driven execution
-- Multi-engine runtime
-- Telegram notifications
-- Explainable execution flow
-- Strategy orchestration
-- Production-ready deployment workflow
-
----
-
-## TAlgo-AI — AI Trade Intelligence Platform
-
-AI reasoning layer that transforms execution logs into explainable trading insights.
-
-```text
-Trading Engine
-      │
-Structured Runtime Logs
-      │
-Trade Reconstruction
-      │
-AI Analysis
-      │
-Interactive Dashboard
+That makes TAlgo-X look like an actual **operator platform**, not just another trading bot. 
 ```
-
-**Features**
-
-- Runtime log parsing
-- Historical session reconstruction
-- AI-assisted trade review
-- Trade grading
-- Indicator interpretation
-- Entry & exit reasoning
-- REST API backend
-- React dashboard
-
----
-
-## TAlgo — Adaptive Trading Engine
-
-Research environment where execution models, indicators, and market-state algorithms are developed before deployment into TAlgo-X.
-
-**Features**
-
-- Strategy experimentation
-- Event-driven architecture
-- Explainable signals
-- Runtime lifecycle management
-- Risk-aware execution
-
----
-
-## ALMA Backtester (Python)
-
-Research framework for validating trading ideas before production deployment.
-
-- Historical simulation
-- ATR risk modelling
-- Regime analysis
-- Performance visualization
-- Equity curve generation
-
----
-
-## Embedded Projects
-
-### ESP32-CAM Rover
-- Live camera streaming
-- Browser-based control
-- Wireless navigation
-
-### FireBot
-- Fire detection
-- Remote monitoring
-- Safety alerts
-
-### Smart Wrist Band
-- MPU6050 motion analysis
-- Fall detection
-- Telegram notifications
-
----
-
-# Engineering Focus
-
-### Backend Engineering
-- Node.js
-- Event-driven systems
-- Runtime orchestration
-- SQLite
-- PM2
-- Express
-- Socket.IO
-
-### Trading Infrastructure
-- Multi-instrument execution
-- Runtime orchestration
-- Market-state systems
-- Position lifecycle management
-- Broker integration
-- Backtesting
-- Deployment tooling
-
-### Embedded Systems
-- ESP32 / ESP8266
-- MPU6050
-- Sensors
-- Motor control
-
-### Infrastructure
-- AWS Ubuntu
-- SSH
-- Git
-- Telegram Bot API
-
----
-
-# Design Philosophy
-
-I build systems that are:
-
-- Deterministic
-- Explainable
-- Context-driven
-- Operationally simple
-- Failure-aware
-- Easy to extend
-
-> Observe → Decide → Act
-
----
-
-# Current Research
-
-- Autonomous execution platforms
-- Runtime orchestration
-- Market-state modelling
-- Strategy selection
-- Deployment tooling
-- AI-assisted observability
-- Reliability engineering
-
----
-
-# Disclaimer
-
-TAlgo and TAlgo-X are research and educational projects exploring autonomous trading infrastructure, backend systems, and software engineering.
-
-Live deployment credentials, proprietary configurations, and sensitive operational data are intentionally excluded.
