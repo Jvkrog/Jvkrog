@@ -9,7 +9,7 @@ Website: https://jvkrog.github.io/TAlgo-X-Website/
 
 Production-grade trading infrastructure built around a deterministic, multi-instrument execution runtime.
 
-```text
+```
                  TAlgo-X
                      │
           ┌──────────┴──────────┐
